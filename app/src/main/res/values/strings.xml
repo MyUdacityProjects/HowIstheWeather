@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">How Is the Weather</string>
+
+    <!-- Strings related to Activity Names -->
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_map">View on map</string>
+    <string name="action_share">Share</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_loc_key">loc</string>
+    <string name="pref_loc_title">Location</string>
+    <string name="pref_unit_key">unit</string>
+    <string name="pref_unit_title">Pick your units</string>
+    <string name="pref_loc_default" translatable="false">560029</string>
+    <string name="pref_unit_default" translatable="false">metric</string>
+    <string-array name="pref_unit_title_array" translatable="false">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="pref_unit_value_array" translatable="false">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+</resources>
